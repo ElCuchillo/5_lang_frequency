@@ -14,8 +14,8 @@ def load_data(file_path):
         return parsed_text, None
 
 
-def get_most_frequent_words(parsed_text):
-    top_10_words = collections.Counter(parsed_text).most_common(10)
+def get_most_frequent_words(parsed_text,how_many_words=10):
+    top_10_words = collections.Counter(parsed_text).most_common(how_many_words)
     #print(top_10_words)
     words_list = []
     for word, frequency in top_10_words:
