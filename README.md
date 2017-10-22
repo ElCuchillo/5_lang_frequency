@@ -13,10 +13,8 @@ $ python3 lang_frequency.py w.txt
 ```
 where `w.txt` - text file to be analyzed.
 
-```
-
 Output example:
-10 most сommon words in the w.txt are (word, qty):
+```Most сommon words in the w.txt are (word, frequency):
 и...................56 
 вы..................49 
 не..................42 
