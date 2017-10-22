@@ -1,7 +1,7 @@
 # Frequency Analysis of Words
 
 The script accepts text file as a parameter, loads data from the file, counts frequency of the words in the text 
-and outputs to console the list of the 10 most frequent words with frequency descending.
+and outputs to console the list of the 10 most common words with their frequencies .
 
 # Quickstart
 
@@ -16,7 +16,17 @@ where `w.txt` - text file to be analyzed.
 ```
 
 Output example:
-The 10 most frequently used words in the w.txt are: ['the', 'a', 'to', 'is', 'in', 'of', 'd', 'and', 'for', '3']
+10 most сommon words in the w.txt are (word, qty):
+и...................56 
+вы..................49 
+не..................42 
+что.................40 
+в...................29 
+а...................19 
+то..................19 
+но..................17 
+на..................17 
+с...................16
 ```
 # Project Goals
 
