@@ -5,8 +5,8 @@ import collections
 
 def load_data(file_path):
     try:
-        with open(file_path, 'r') as parced_file:
-            return parced_file.read()
+        with open(file_path, 'r') as loded_file:
+            return loaded_file.read()
 
     except FileNotFoundError:
         return None
