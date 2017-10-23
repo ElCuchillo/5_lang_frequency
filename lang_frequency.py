@@ -24,10 +24,10 @@ if __name__ == '__main__':
         if not parsed_text:
             print("File or direcory {} not found".format(sys.argv[1]))
         else:
-            top_10_words = get_most_frequent_words(parsed_text)
+            most_common_words = get_most_frequent_words(parsed_text)
             print("Most сommon words in the {} are (word, frequency):"
                   .format(sys.argv[1]))
-            for word, frequency in top_10_words:
+            for word, frequency in most_common_words:
                 print('{:.<20}{:<3}'.format(word, frequency))
 
     else:
