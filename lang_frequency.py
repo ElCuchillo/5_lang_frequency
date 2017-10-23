@@ -13,7 +13,7 @@ def load_data(file_path):
 
 
 def get_most_frequent_words(parsed_file, how_many_words=10):
-    words_list = re.findall(r'\w+', parsed_file)
+    words_list = re.findall(r'\w+', parsed_file.lower())
     return collections.Counter(words_list).most_common(how_many_words)
 
 
